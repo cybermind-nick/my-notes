@@ -8,7 +8,7 @@ Some characters in a source file don't mean anything, like whitespace (sometimes
 
 
 ### Parsing
-This is the next step. Here, our syntax gets a [__Grammer__](obsidian://open?vault=My%20Courses&file=Theory%20of%20Computation)-the ability to compose larger expressions. Like a sentence diagram or tree (modern guys call them Abstract Syntax Trees. Sound family me thinks). The Keyword of PL though, are 'keywords', which they have a lot less of as compared to natural languages
+This is the next step. Here, our syntax gets a [__Grammer__](obsidian://open?vault=My%20Courses&file=Theory%20of%20Computation)-the ability to compose larger expressions. Like a sentence diagram or tree (modern guys call them Abstract Syntax Trees. Sound familiar me thinks). The Keyword of PL though, are 'keywords', which they have a lot less of as compared to natural languages
 
 So, the parser takes a flat sequence of characters and builds that into a syntax tree that mirrors the nested nature of grammar. ASTs are also called parse trees (but that's old school)
 
